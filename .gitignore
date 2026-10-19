@@ -25,6 +25,8 @@ htmlcov/
 data/*
 !data/.gitkeep
 
-# IDEs
+# IDEs (as configurações do Antigravity/VS Code do projeto vão para o git)
 .idea/
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

@@ -1,0 +1,7 @@
+{
+    // Extensões sugeridas ao abrir o projeto
+    "recommendations": [
+        "ms-python.python",
+        "charliermarsh.ruff"
+    ]
+}

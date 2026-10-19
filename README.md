@@ -13,6 +13,7 @@ Python-Essencial/
 ├── tests/                    # testes automatizados (pytest)
 ├── data/                     # dados locais (fora do git)
 ├── notebooks/                # notebooks Jupyter
+├── .vscode/                  # configurações do Antigravity
 ├── .env.example              # modelo das variáveis de ambiente
 ├── requirements.txt          # dependências do projeto
 ├── requirements-dev.txt      # dependências de desenvolvimento
@@ -28,6 +29,12 @@ pip install -r requirements-dev.txt
 pip install -e .
 cp .env.example .env
 ```
+
+## Abrir no Antigravity
+
+Abra a pasta do projeto. As configurações em `.vscode/` já apontam para o interpretador
+da `.venv`, ativam o pytest na aba **Testing** e formatam o código com o ruff ao salvar.
+Na primeira vez, aceite instalar as extensões recomendadas (Python e Ruff).
 
 ## Como usar
 

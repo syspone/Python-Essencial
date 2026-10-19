@@ -1,0 +1,29 @@
+{
+    // Interpretador do ambiente virtual do projeto
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.extraPaths": ["src"],
+
+    // Testes com pytest (aba Testing)
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": ["tests"],
+
+    // Formatação e organização dos imports com o ruff ao salvar
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+
+    // Esconde pastas geradas automaticamente
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.egg-info": true,
+        ".pytest_cache": true,
+        ".ruff_cache": true
+    }
+}
