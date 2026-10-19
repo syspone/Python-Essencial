@@ -12,7 +12,7 @@ import pandas as pd
 
 # Comentario de uma linha
 
-a = 1 # variavel de exemplo para comentario
+a = 1  # variavel de exemplo para comentario
 
 # ==== Docstring ====
 """

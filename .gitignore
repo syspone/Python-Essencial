@@ -1,1 +1,30 @@
+# Segredos e configurações locais
+.env
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Testes e ferramentas
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados (brutos ficam fora do git)
+data/*
+!data/.gitkeep
+
+# IDEs
 .idea/
+.vscode/
